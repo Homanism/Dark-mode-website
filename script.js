@@ -20,9 +20,9 @@ function imageMode(color) {
 function darkMode() {
     nav.style.backgroundColor = 'rgb(0 0 0 / 50%)';
     textBox.style.backgroundColor = 'rgb(255 255 255 / 50%)';
-    toggleIcon.children[0].textContent = 'Dark Mode';
+    toggleIcon.children[0].textContent = 'light Mode';
     toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon');
-    imageMode('dark')
+    imageMode('light')
 }
 
 
@@ -30,9 +30,9 @@ function darkMode() {
 function lightMode() {
     nav.style.backgroundColor = 'rgb(255 255 255 / 50%)';
     textBox.style.backgroundColor = 'rgb(0 0 0 / 50% ) ';
-    toggleIcon.children[0].textContent = 'Light Mode';
+    toggleIcon.children[0].textContent = 'dark Mode';
     toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun');
-    imageMode('light');
+    imageMode('dark');
 }
 
 // Lite Mode Style
@@ -60,9 +60,9 @@ toggleSwitch.addEventListener('change', switchTheme);
 const currentTheme = localStorage.getItem('theme');
 if (currentTheme) {
     document.documentElement.setAttribute('data-theme', currentTheme);
-    if (currentTheme === 'light') {
+    if (currentTheme === 'dark') {
         toggleSwitch.checked = true;
-        darkMode();
+        lightMode();
     }
 }
 
