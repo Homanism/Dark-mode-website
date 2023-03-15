@@ -15,11 +15,11 @@
 [data-theme="dark"] {
   --primary-color: rgb(63, 4, 105);
   --primary-variant: #01000f;
-  --secondary-color: #6ecdec;
+  --secondary-color: #7b6eec;
   --on-primary: #000;
   --on-background: rgb(66, 66, 66);
-  --on-background-alt: rgba(66, 66, 66, 0.7);
-  --background: #E7F6F2;
+  --on-background-alt: rgba(12, 11, 11, 0.7);
+  --background: #b3bfcf;
 }
 #typed {
   color: #7f00ff;
