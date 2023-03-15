@@ -52,6 +52,7 @@
   padding-bottom: 5px;
 
 }
+
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
@@ -104,11 +105,21 @@ h1 {
 .pro{
   margin-bottom: 10%;
 }
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
 
 h2 {
   color: var(--on-background-alt);
   font-size: 32px;
   font-weight: bold;
+}
+div.p {
+  text-align: left;
 }
 
 /* Navigation */
