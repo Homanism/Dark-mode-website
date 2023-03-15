@@ -186,7 +186,7 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 /* .img-container:hover::before {
@@ -195,10 +195,24 @@ img {
 .bImg {
   height: 500px;
   width: 500px;
+  margin-bottom: 500px;
   position: absolute;
-  top: -100px;
+  top: 0px;
   left: 0px;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
+
+
+@keyframes example {
+  0%   { left:0px; top:-5px;}
+  25%  {left:75px; top:-140px;}
+  50%  { left:25px; top:-70px;}
+  75%  { left:50px; top:-25px;}
+  100% {left:0px; top:0px;}
+}
+
 
 .homanImg {
   position: relative;
@@ -208,7 +222,7 @@ img {
 }
 
 .homanImg:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
     z-index: 2;
 }
 
