@@ -165,7 +165,12 @@ div.title-group {
   margin-left: 36px;
 }
 .curses {
-  margin-top: -430px;
+  margin-top: -320px;
+  align-items: start;
+  margin-left: 36px;
+}
+.experience {
+  margin-top: -130px;
   align-items: start;
   margin-left: 36px;
 }
