@@ -164,6 +164,11 @@ div.title-group {
   align-items: start;
   margin-left: 36px;
 }
+.curses {
+  margin-top: -430px;
+  align-items: start;
+  margin-left: 36px;
+}
 div.about {
   height: 40rem;
 }
