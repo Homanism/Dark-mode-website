@@ -170,7 +170,9 @@ div.title-group {
   padding-top: 6%;
 }
 .about {
-  margin-top: -470px;
+  margin-top: -400px;
+  margin-left: 36px;
+  align-items: start;
 }
 .education {
   margin-top: -580px;
