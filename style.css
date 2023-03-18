@@ -51,10 +51,20 @@
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
+  width: 40%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: right;
+  align-items: end;
+
+  width: 10%;
+  padding: 0px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -87,6 +97,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: end;
   flex-direction: column;
 }
 
@@ -260,11 +271,11 @@ img {
 
 
 @keyframes example {
-  0%   { left:0px; top:-5px;}
-  25%  {left:75px; top:-140px;}
-  50%  { left:25px; top:-70px;}
-  75%  { left:50px; top:-25px;}
-  100% {left:0px; top:0px;}
+  0%   { left:-30px; top:-5px;}
+  25%  {left:-65px; top:-60px;}
+  50%  { left:-100px; top:-100px;}
+  75%  { left:10px; top:-25px;}
+  100% {left:-50px; top:10px;}
 }
 
 

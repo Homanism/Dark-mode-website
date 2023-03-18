@@ -68,7 +68,7 @@ if (currentTheme) {
 
 // Create a new instance of Typed.js
 var typed = new Typed('#typed', {
-    strings: ['full-stack developer.', 'Utvikler.', 'Designer.'],
+    strings: ['full-stack <br/> developer.', 'Utvikler.', 'Designer.'],
     typeSpeed: 30,
     backSpeed: 20,
     loop: true,
