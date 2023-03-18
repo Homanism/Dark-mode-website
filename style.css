@@ -12,7 +12,7 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: rgb(63, 4, 105);
+  --primary-color: rgb(191, 148, 222);
   --primary-variant: #01000f;
   --secondary-color: #070708;
   --on-primary: #000;
@@ -136,10 +136,10 @@ nav {
   z-index: 10;
   position: fixed;
   font-size: 20px;
-  letter-spacing: 3px;
-  padding: 25px;
+  letter-spacing: 0px;
+  padding: 10px;
   width: 100vw;
-  background: rgb(255 255 255 / 50%);
+  background: rgba(223, 218, 244, 0.8);
 }
 
 a {
@@ -162,50 +162,52 @@ div.title-group {
 }
 
 .home {
-  min-height: 0vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 450px;
+  min-height: 150;
+  justify-content: right;
   flex-direction: column;
-  padding-top: 95px;
+  /* padding-top: -20px; */
+  padding-top: 6%;
 }
 .about {
-  margin-top: -220px;
+  margin-top: -470px;
 }
 .education {
-  margin-top: -380px;
+  margin-top: -580px;
   align-items: start;
   margin-left: 36px;
 }
 .curses {
-  margin-top: -320px;
+  margin-top: -560px;
   align-items: start;
   margin-left: 36px;
 }
 .experience {
-  margin-top: -130px;
+  margin-top: -270px;
   align-items: start;
   margin-left: 36px;
 }
 .itKnowledge {
-  margin-top: -190px;
+  margin-top: -290px;
   align-items: start;
   margin-left: 36px;
 }
 .language {
-  margin-top: -390px;
+  margin-top: -620px;
   align-items: start;
   margin-left: 36px;
 }
 .projects {
-  margin-top: -390px;
+  margin-top: -790px;
   align-items: start;
   margin-left: 36px;
 }
 .contact {
-  margin-top: -590px;
+  /* margin-top: -400px; */
+  /* margin-bottom: -400px; */
   align-items: start;
   margin-left: 36px;
+  min-height: 125px;
 }
 .projec
 div.about {
@@ -384,7 +386,7 @@ p {
   z-index: 100;
   position: fixed;
   right: 25px;
-  top: 30px;
+  top: 5px;
 }
 
 .theme-switch-wrapper span {
@@ -454,6 +456,7 @@ footer {
   align-items: center;
   background-color: #f0f0f0;
   color: #333;
+  
 }
 
 #menu-toggle {
